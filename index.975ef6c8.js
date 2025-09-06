@@ -28700,13 +28700,14 @@ const Home = ({ name , title  })=>{
                     src: (0, _downArrowSvgDefault.default),
                     style: {
                         height: "3rem",
-                        width: "3rem"
+                        width: "3rem",
+                        animation: "bounce 1s infinite"
                     },
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
                     lineNumber: 36,
-                    columnNumber: 9
+                    columnNumber: 3
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28834,7 +28835,8 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideInLeft"
                             },
                             alt: imageAltText
                         }, void 0, false, {
