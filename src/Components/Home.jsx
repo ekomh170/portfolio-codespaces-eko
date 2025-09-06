@@ -26,14 +26,17 @@ const imageAltText = "foto latar utama portofolio";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+    <section id="home" className="min-height home-section">
+      <div className="home-bg-wrapper">
+        <img className="background home-bg-image" src={image} alt={imageAltText} />
+        <div className="home-bg-overlay"></div>
+      </div>
+      <div className="home-content">
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-  <img src={arrowSvg} style={{ height: "3rem", width: "3rem", animation: "bounce 1s infinite" }} alt={imageAltText} />
+      <div className="home-arrow">
+        <img src={arrowSvg} style={{ height: "3rem", width: "3rem", animation: "bounce 1s infinite" }} alt={imageAltText} />
       </div>
     </section>
   );
