@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-  "build-gh": "parcel build --public-url 'http://ekomh170.github.io/portfolio-codespaces-eko'",
+  "build-gh": "parcel build --public-url 'https://ekomh170.github.io/portfolio-codespaces-eko'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
