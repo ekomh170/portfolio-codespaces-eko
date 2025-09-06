@@ -31,28 +31,28 @@ const imageAltText = "contoh meja kerja dengan laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "ChillAjar 📚",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An e-learning platform built with Laravel + React, a result of a Project Management team collaboration.",
+    url: "https://github.com/ekomh170/manpro-sizzlingchilli-backend-chill-ajar",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Habit Tracker App",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A web app to track daily habits. Built with React + Express, integrated with MongoDB Atlas.",
+    url: "https://github.com/ekomh170/frontend-uas-se1-2025-pengingat-habit-semester-4",
   },
   {
-    title: "My Resume Site",
+    title: "Zentra Force",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "UMKM registration system, final project for Cloud Computing, deployed on Google Cloud Compute Engine.",
+    url: "https://github.com/ekomh170/zentra-force-umkm",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Portfolio Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Personal portfolio website built with React and GitHub Codespaces, customized with Copilot.",
+    url: "https://github.com/ekomh170/portfolio-codespaces-eko",
   },
 ];
 
